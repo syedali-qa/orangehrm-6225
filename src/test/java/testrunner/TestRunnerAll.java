@@ -7,9 +7,10 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:/Users/Syed Murthuza Ali/eclipse-workspace/AutomationFrameworks/prac6225/src/test/resources/Features/LoginPageUI.feature",
+//		features = "C:/Users/Syed Murthuza Ali/eclipse-workspace/AutomationFrameworks/prac6225/src/test/resources/Features/LoginPageUI.feature",
+		features = "C:/Users/Syed Murthuza Ali/eclipse-workspace/AutomationFrameworks/prac6225/src/test/resources/Features/HomePage.feature",
 		glue = "stepdefinitions",
-		tags = "@Smoke or @Sanity or @Regression",
+//		tags = "@Smoke or @Sanity or @Regression",
 		plugin = {"pretty","html:target/reports/report.html"},
 //		dryRun = true,
 		monochrome = true
